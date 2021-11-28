@@ -4,15 +4,15 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 source $CURRENT_DIR/scripts/helpers.sh
 
-dark_font="#282c34"
-white_font="#aab2bf"
-color_font="#aab2bf"
-blue="#61afef"
-yellow="#e5c07b"
-red="#e06c75"
-outer_bg="#98c379"
-visual_grey="#3e4452"
-comment_grey="#5c6370"
+dark_font="#1f2335"
+white_font="#c0caf5"
+color_font="#7aa2f7"
+blue="#9ece6a"
+yellow="#ff9e64"
+red="#f7768e"
+outer_bg="#7aa2f7"
+visual_grey="#414868"
+comment_grey="#565f89"
 
 prefix_highlight_fg="$dark_font"
 prefix_highlight_bg="$outer_bg"
@@ -97,7 +97,6 @@ options() {
 	set_tmux_option "mode-style" "fg=$dark_font,bg=$yellow"
 
 	set_tmux_option "message-style" "fg=$dark_font,bg=$yellow"
-
 }
 
 

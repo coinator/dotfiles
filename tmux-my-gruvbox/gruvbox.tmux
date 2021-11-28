@@ -4,15 +4,16 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 source $CURRENT_DIR/scripts/helpers.sh
 
-dark_font="#282c34"
-white_font="#aab2bf"
-color_font="#aab2bf"
-blue="#61afef"
-yellow="#e5c07b"
-red="#e06c75"
-outer_bg="#98c379"
-visual_grey="#3e4452"
-comment_grey="#5c6370"
+dark_font="#3c3836"
+color_font="#a89985"
+white_font="#a89985"
+blue="#62afef"
+yellow="#fe8020"
+red="#fb4934"
+outer_bg="#a89985" #bright outer_bg
+visual_grey="#504946"
+comment_grey="#504946"
+
 
 prefix_highlight_fg="$dark_font"
 prefix_highlight_bg="$outer_bg"
