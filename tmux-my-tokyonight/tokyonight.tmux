@@ -80,8 +80,8 @@ options() {
 
 	set_tmux_window_option "window-status-separator" ""
 
-	set_tmux_option "window-style" "fg=$comment_grey"
-	set_tmux_option "window-active-style" "fg=$white_font"
+	# set_tmux_option "window-style" "fg=$comment_grey"
+	# set_tmux_option "window-active-style" "fg=$white_font"
 
 	set_tmux_option "pane-border-fg" "$white_font"
 	set_tmux_option "pane-border-bg" "$dark_font"
